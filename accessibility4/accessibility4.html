@@ -20,6 +20,10 @@
         width: 400px;
         margin: 0 auto;
       }
+    
+      header img {
+        width: 100px;
+      }
 
       main img {
         display: block;
@@ -34,18 +38,30 @@
         align-items: center;
         gap: 20px;
       }
+
+      fieldset {
+        box-shadow: 5px 5px 0;
+      }
+      
     </style>
   </head>
-
+<fieldset>
   <body>
     <header>
-      <img src="images/star.png" alt="A star that I use to decorate my page">
-      <h1>Groovy images</h1>
+      <img
+        src="images/star.jpg" 
+        alt="A star that I use to decorate my page"
+        title="I am A Star">
+        <h1>Groovy images</h1>
     </header>
     <main>
-      <img src="images/teapot.jpg">
-      <img src="images/football.jpg">
+      <img 
+        src="images/teapot.jpg"
+        alt="I am a black teapot in a window sill.">
+      <img 
+        src="images/football.jpg"
+        alt="I am a soccer ball on some green grass.">
     </main>
   </body>
-
+</fieldset>
 </html>
